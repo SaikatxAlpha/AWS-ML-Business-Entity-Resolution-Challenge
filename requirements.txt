@@ -1,0 +1,26 @@
+# Python 3.11 (tested with 3.11.9). All packages are permissively licensed
+# (BSD / MIT / Apache-2.0 / ISC). No network services are used at runtime.
+
+# core data
+numpy==2.2.6
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.17.1
+
+# matching / ML
+scikit-learn==1.9.1
+rapidfuzz==3.14.6
+xgboost==3.2.0
+lightgbm==4.7.0
+anyascii==0.3.3          # ISC: offline Unicode -> ASCII transliteration
+
+# utilities
+psutil==7.2.2
+tqdm==4.70.1
+matplotlib==3.11.2
+
+# dev / notebooks
+pytest==9.1.1
+jupyter==1.1.1
+notebook==7.6.3
+ipykernel==7.3.0
