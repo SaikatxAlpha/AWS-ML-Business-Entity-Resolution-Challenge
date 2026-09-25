@@ -78,11 +78,27 @@ def learn_normalizer(train_s1: pd.Series, truth: pd.DataFrame, tag: str) -> dict
     return norm
 
 
-def normalized(split: str, normalizer: dict) -> pd.DataFrame:
+INDEX_COLUMNS = ["code", "country", "source", "name_raw", "addr_raw", "nums", "name_norm", "name_core", "addr_norm"]
+
+
+def countries(split: str, normalizer: dict) -> list[str]:
+    """Country labels present in a split (open set, read from the data)."""
+    normalized(split, normalizer, columns=["code"])        # builds the cache if missing
+    p = cache_path("records", f"{split}_norm_{PREPROCESSING_VERSION}_{normalizer['tag']}.parquet")
+    return sorted(pd.read_parquet(p, columns=["country"])["country"].unique().tolist())
+
+
+def normalized_country(split: str, normalizer: dict, country: str, columns: list[str] | None = None) -> pd.DataFrame:
+    """One country's records only (Parquet row filter), to keep peak memory per partition."""
+    p = cache_path("records", f"{split}_norm_{PREPROCESSING_VERSION}_{normalizer['tag']}.parquet")
+    return pd.read_parquet(p, columns=columns, filters=[("country", "==", country)])
+
+
+def normalized(split: str, normalizer: dict, columns: list[str] | None = None) -> pd.DataFrame:
     tag = normalizer["tag"]
     p = cache_path("records", f"{split}_norm_{PREPROCESSING_VERSION}_{tag}.parquet")
     if p.exists():
-        return pd.read_parquet(p)
+        return pd.read_parquet(p, columns=columns)
     t = time.time()
     df = prenormalized(split)
     name_norm = pd.Series("", index=df.index, dtype=str)

@@ -9,7 +9,7 @@ Protocol (leakage-safe):
 Variants:
   E000  empty prediction for every entity (floor = singleton rate)
   B0    raw text: lowercase + split on non-alphanumerics, no transliteration/maps/weak tokens
-  B1    full normalisation (p1): transliteration, OCR repair, learned maps, core names, numbers
+  B1    full normalisation (p2): transliteration, OCR repair, learned maps, core names, numbers
 For each: fuzzy (w, t) rule and a TF-IDF-score-only rule.
 """
 from __future__ import annotations
@@ -21,13 +21,14 @@ import numpy as np
 import pandas as pd
 
 from ..blocking.tfidf_blocking import TfidfBlockingConfig, tfidf_candidates
-from ..config import EXPERIMENTS_DIR, cache_path
+from ..config import EXPERIMENTS_DIR, MODELS_DIR, OUTPUT_DIR, cache_path
 from ..decision.threshold_optimizer import best, evaluate_mask, grid_search, prepare
 from ..evaluation.experiments import log_experiment
 from ..evaluation.metrics import candidate_metrics, evaluate
 from ..evaluation.validation import cardinality_bucket, split, stratified_sample, truth_pairs
 from ..models.baseline import combined, fuzzy_scores, tune
 from ..preprocessing.records import PREPROCESSING_VERSION, learn_normalizer, normalized
+from ..utils.io import read_id_list_file, write_submission
 
 K_LIST = (1, 5, 10, 20, 50)
 
@@ -73,11 +74,12 @@ def run_baseline(eval_n: int | None = 50_000, tune_n: int = 50_000, top_k: int =
     queries = np.concatenate([tune_set["s1"].to_numpy(), eval_set["s1"].to_numpy()])
 
     results = {}
+    options, ev_cands = [], {}
     for name in variants:
         v = VARIANTS[name]
         t0 = time.time()
         cfg = TfidfBlockingConfig(fields=v["fields"], top_k=top_k)
-        cpath = cache_path("candidates", f"baseline_{name}_{tag}_k{top_k}.parquet")
+        cpath = cache_path("candidates", f"baseline_{name}_{PREPROCESSING_VERSION}_e{eval_n or 0}_t{tune_n}_k{top_k}.parquet")
         if cpath.exists():
             cands = pd.read_parquet(cpath)
         else:
@@ -126,7 +128,30 @@ def run_baseline(eval_n: int | None = 50_000, tune_n: int = 50_000, top_k: int =
                          "candidates": cand_at_k, "scoring_s": time.time() - t1, "blocking_s": t_block}
         print(f"[{name}] fuzzy F0.5={full['f05']:.4f} (w={params['w']}, t={params['t']}) | "
               f"tfidf-only F0.5={full2['f05']:.4f} (t={t2}) | {time.time() - t0:.0f}s", flush=True)
+        blocking = {"fields": v["fields"], "top_k": top_k, "max_df": cfg.max_df}
+        options.append((float(best(curves)["f05"]), {
+            "name": f"{name}_fuzzy", "blocking": blocking,
+            "rule": {"type": "fuzzy", "w": params["w"], "t": params["t"], "name_col": v["name_col"], "addr_col": v["addr_col"]},
+            "val_f05": full["f05"]}, ev.assign(score=combined(ev, params["w"]))[keep]))
+        options.append((float(best(c2)["f05"]), {
+            "name": f"{name}_tfidfonly", "blocking": blocking, "rule": {"type": "tfidf", "t": t2},
+            "val_f05": full2["f05"]}, ev[keep2]))
+        ev_cands[name] = ev
 
+    # model selection on the training-fold tuning score (validation is only reported)
+    tune_f05, spec, ev_matches = max(options, key=lambda o: o[0])
+    spec.update({"selected_by": "train-fold tuning F0.5", "tune_f05": tune_f05, "split_note": split_note,
+                 "preprocessing_version": PREPROCESSING_VERSION})
+    (MODELS_DIR / "baseline_rule.json").write_text(json.dumps(spec, indent=1), encoding="utf-8")
+    # file round trip on validation: write both TSVs, read back, re-score
+    vdir = OUTPUT_DIR / f"validation_{tag}"
+    variant = spec["name"].rsplit("_", 1)[0]
+    write_submission(vdir, eval_set["s1"].to_numpy(), ev_cands[variant], ev_matches)
+    rescored = evaluate(read_id_list_file(vdir / "matching_results.tsv"), T, eval_set["s1"])
+    assert abs(rescored["f05"] - spec["val_f05"]) < 1e-9, "TSV round trip changed the score"
+    print(f"[select] {spec['name']} (tune F0.5={tune_f05:.4f}, val F0.5={spec['val_f05']:.4f}); "
+          f"validation TSVs round-trip OK -> {vdir}", flush=True)
+    results["selected"] = spec
     results["empty"] = m0
     results["runtime_s"] = time.time() - t_all
     (EXPERIMENTS_DIR / "runs" / f"baseline_summary_{tag}.json").write_text(json.dumps(results, indent=1, default=str))

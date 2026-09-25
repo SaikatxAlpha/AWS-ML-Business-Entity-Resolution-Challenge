@@ -47,3 +47,14 @@ def tune(scored: pd.DataFrame, prep: PreparedEval, weights=(0.3, 0.4, 0.5, 0.6, 
     curves = pd.concat(curves, ignore_index=True)
     b = best(curves)
     return {"w": float(b["w"]), "t": float(b["threshold"])}, curves
+
+
+def apply_rule(cands: pd.DataFrame, rec: pd.DataFrame, rule: dict) -> pd.DataFrame:
+    """Return the accepted candidate pairs (with a ``score`` column used for ordering)."""
+    if rule["type"] == "tfidf":
+        return cands[cands["score"].to_numpy() >= rule["t"]]
+    if rule["type"] == "fuzzy":
+        scored = fuzzy_scores(cands, rec, rule["name_col"], rule["addr_col"])
+        s = combined(scored, rule["w"])
+        return scored.assign(score=s)[s >= rule["t"]]
+    raise ValueError(f"unknown rule type {rule['type']}")

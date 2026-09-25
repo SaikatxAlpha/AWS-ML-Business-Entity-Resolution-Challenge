@@ -1,0 +1,4130 @@
+{
+ "tag": "f0",
+ "n_train_s1": 1765451,
+ "n_pos_pairs": 6110764,
+ "maps": {
+  "params": {
+   "min_count": 25,
+   "min_consistency": 0.5,
+   "min_ratio": 70.0
+  },
+  "India": {
+   "name": {
+    "ltd": "limited",
+    "limitet": "limited",
+    "llmited": "limited",
+    "limirrd": "limited",
+    "corp": "corporation",
+    "privae": "private",
+    "pivaet": "private",
+    "prevate": "private",
+    "pvae": "private",
+    "priave": "private",
+    "pite": "private",
+    "praivet": "private",
+    "privtae": "private",
+    "privaet": "private",
+    "prviate": "private",
+    "priate": "private",
+    "priavte": "private",
+    "prihate": "private",
+    "pirvate": "private",
+    "privaae": "private",
+    "prfvate": "private",
+    "prrivate": "private",
+    "privte": "private",
+    "prve": "private",
+    "privet": "private",
+    "privaste": "private",
+    "prlvate": "private",
+    "prnivate": "private",
+    "pate": "private",
+    "praite": "private",
+    "prvte": "private",
+    "pritae": "private",
+    "privaate": "private",
+    "prvtae": "private",
+    "prvate": "private",
+    "pivtae": "private",
+    "privtea": "private",
+    "piravte": "private",
+    "prite": "private",
+    "pte": "private",
+    "prvae": "private",
+    "pivte": "private",
+    "prte": "private",
+    "pivate": "private",
+    "priivate": "private",
+    "pravte": "private",
+    "prate": "private",
+    "prtvate": "private",
+    "prive": "private",
+    "prvaite": "private",
+    "prviae": "private",
+    "prsvate": "private",
+    "prisate": "private",
+    "prioate": "private",
+    "piate": "private",
+    "pravate": "private",
+    "pvate": "private",
+    "pridate": "private",
+    "pivae": "private",
+    "prae": "private",
+    "pfivate": "private",
+    "prdvate": "private",
+    "praivte": "private",
+    "piavte": "private",
+    "ptivate": "private",
+    "pirvte": "private",
+    "pviate": "private",
+    "pritve": "private",
+    "prrvate": "private",
+    "pirate": "private",
+    "prbvate": "private",
+    "prifvate": "private",
+    "pirvaet": "private",
+    "priae": "private",
+    "prvaet": "private",
+    "privhate": "private",
+    "peivate": "private",
+    "privcte": "private",
+    "prfivate": "private",
+    "privgte": "private",
+    "privite": "private",
+    "pivrate": "private",
+    "pricate": "private",
+    "pirvae": "private",
+    "poivate": "private",
+    "priaet": "private",
+    "prvite": "private",
+    "priavet": "private",
+    "pritvae": "private",
+    "prviaet": "private",
+    "priaate": "private",
+    "prsivate": "private",
+    "privnate": "private",
+    "piae": "private",
+    "pe": "private",
+    "pive": "private",
+    "prvitae": "private",
+    "prie": "private",
+    "pvrate": "private",
+    "prirate": "private",
+    "privbte": "private",
+    "paivate": "private",
+    "pirvtae": "private",
+    "piivate": "private",
+    "priiate": "private",
+    "privete": "private",
+    "privarte": "private",
+    "privea": "private",
+    "pvte": "private",
+    "prcvate": "private",
+    "privfte": "private",
+    "privbate": "private",
+    "prilate": "private",
+    "privste": "private",
+    "pre": "private",
+    "prgivate": "private",
+    "privhte": "private",
+    "pvriate": "private",
+    "prhvate": "private",
+    "impeks": "impex",
+    "lmpex": "impex",
+    "intemational": "international",
+    "intarnyasnal": "international",
+    "lnternational": "international",
+    "estet": "estate",
+    "company": "co",
+    "ia": "india",
+    "idia": "india",
+    "lndia": "india",
+    "inida": "india",
+    "iia": "india",
+    "ina": "india",
+    "indi": "india",
+    "indai": "india",
+    "ndia": "india",
+    "idnia": "india",
+    "nidia": "india",
+    "inda": "india",
+    "inia": "india",
+    "ida": "india",
+    "food": "foods",
+    "fd": "foods",
+    "fod": "foods",
+    "fods": "foods",
+    "foodworks": "foods",
+    "builder": "builders",
+    "bildrs": "builders",
+    "bildars": "builders",
+    "investments": "investment",
+    "investmemts": "investment",
+    "investmemt": "investment",
+    "lnvestment": "investment",
+    "lnvestments": "investment",
+    "inbhestment": "investment",
+    "inbhestments": "investment",
+    "devlprs": "developers",
+    "developer": "developers",
+    "debhelpars": "developers",
+    "sos": "sons",
+    "snos": "sons",
+    "ss": "sons",
+    "sns": "sons",
+    "so": "sons",
+    "sosn": "sons",
+    "prodyusr": "producer",
+    "hospitailiti": "hospitality",
+    "hspitaliti": "hospitality",
+    "haspitaliti": "hospitality",
+    "hospitaliti": "hospitality",
+    "skti": "shakti",
+    "industry": "industries",
+    "lndustries": "industries",
+    "imdstris": "industries",
+    "indstrijh": "industries",
+    "egro": "agro",
+    "ao": "agro",
+    "ago": "agro",
+    "aro": "agro",
+    "ar": "agro",
+    "agor": "agro",
+    "ayagro": "agro",
+    "di": "delhi",
+    "silvr": "silver",
+    "project": "projects",
+    "prajekts": "projects",
+    "projekts": "projects",
+    "prodkts": "products",
+    "prodakts": "products",
+    "product": "products",
+    "lnfrastructure": "infrastructure",
+    "sistms": "systems",
+    "system": "systems",
+    "sistems": "systems",
+    "daynamik": "dynamic",
+    "arihmt": "arihant",
+    "mainejmemt": "management",
+    "menejment": "management",
+    "myanejment": "management",
+    "myanejmemt": "management",
+    "propertie": "properties",
+    "proprtij": "properties",
+    "praprtis": "properties",
+    "proprtijh": "properties",
+    "ce": "care",
+    "cae": "care",
+    "cre": "care",
+    "venture": "ventures",
+    "solyusns": "solutions",
+    "solutlons": "solutions",
+    "solution": "solutions",
+    "adity": "aditya",
+    "tredimg": "trading",
+    "trdaing": "trading",
+    "tading": "trading",
+    "tradng": "trading",
+    "tradig": "trading",
+    "trding": "trading",
+    "traing": "trading",
+    "sh": "sangh",
+    "primiyr": "premier",
+    "teknolojis": "technologies",
+    "technology": "technologies",
+    "teh": "tech",
+    "th": "tech",
+    "tch": "tech",
+    "tc": "tech",
+    "sn": "sun",
+    "imdo": "indo",
+    "lndo": "indo",
+    "praim": "prime",
+    "center": "centre",
+    "he": "home",
+    "le": "life",
+    "midiya": "media",
+    "bombe": "bombay",
+    "globl": "global",
+    "eastem": "eastern",
+    "lndian": "indian",
+    "brother": "brothers",
+    "broters": "brothers",
+    "bijnes": "business",
+    "bisines": "business",
+    "marketimg": "marketing",
+    "eksports": "exports",
+    "export": "exports",
+    "lnfra": "infra",
+    "inphra": "infra",
+    "inra": "infra",
+    "syam": "shyam",
+    "modrn": "modern",
+    "modem": "modern",
+    "blu": "blue",
+    "yunaited": "united",
+    "knsaltyants": "consultants",
+    "consultant": "consultants",
+    "vijy": "vijay",
+    "srviss": "services",
+    "srvises": "services",
+    "servlces": "services",
+    "hotl": "hotel",
+    "tirupti": "tirupati",
+    "lnfotech": "infotech",
+    "supr": "super",
+    "lnstitute": "institute",
+    "partner": "partners",
+    "sa": "seva",
+    "ljistiks": "logistics",
+    "logistic": "logistics",
+    "lojistiks": "logistics",
+    "associate": "associates",
+    "trader": "traders",
+    "hri": "hari",
+    "lnnovative": "innovative",
+    "inovetiv": "innovative",
+    "sevn": "seven",
+    "yunivrsl": "universal",
+    "goldn": "golden",
+    "trst": "trust",
+    "trt": "trust",
+    "tt": "trust",
+    "emtrpraijes": "enterprises",
+    "emtrpraiss": "enterprises",
+    "royl": "royal",
+    "svstik": "swastik",
+    "lnfratech": "infratech",
+    "dijitl": "digital",
+    "southem": "southern",
+    "chamber": "chambers",
+    "llpllp": "llp",
+    "sivm": "shivam",
+    "saim": "sai",
+    "suprim": "supreme",
+    "jy": "jay",
+    "all": "al",
+    "constructions": "construction",
+    "siv": "shiv",
+    "gujrat": "gujarat",
+    "blaik": "black",
+    "may": "my",
+    "gret": "great",
+    "siva": "shiva",
+    "lots": "lotus",
+    "rl": "real",
+    "sauth": "south",
+    "bhart": "bharat",
+    "brait": "bright",
+    "sury": "surya",
+    "krsn": "krishna",
+    "cy": "city"
+   },
+   "name_evidence": [
+    [
+     "ltd",
+     "limited",
+     135963
+    ],
+    [
+     "limited",
+     "ltd",
+     21204
+    ],
+    [
+     "praivet",
+     "private",
+     3168
+    ],
+    [
+     "company",
+     "co",
+     2631
+    ],
+    [
+     "corporation",
+     "corp",
+     2341
+    ],
+    [
+     "co",
+     "company",
+     2333
+    ],
+    [
+     "corp",
+     "corporation",
+     2272
+    ],
+    [
+     "lndia",
+     "india",
+     1397
+    ],
+    [
+     "technology",
+     "technologies",
+     467
+    ],
+    [
+     "globl",
+     "global",
+     440
+    ],
+    [
+     "impeks",
+     "impex",
+     390
+    ],
+    [
+     "devlprs",
+     "developers",
+     385
+    ],
+    [
+     "privte",
+     "private",
+     375
+    ],
+    [
+     "eksports",
+     "exports",
+     367
+    ],
+    [
+     "priate",
+     "private",
+     362
+    ],
+    [
+     "prvate",
+     "private",
+     361
+    ],
+    [
+     "estet",
+     "estate",
+     357
+    ],
+    [
+     "privae",
+     "private",
+     355
+    ],
+    [
+     "investmemt",
+     "investment",
+     348
+    ],
+    [
+     "tredimg",
+     "trading",
+     335
+    ],
+    [
+     "midiya",
+     "media",
+     332
+    ],
+    [
+     "bildrs",
+     "builders",
+     328
+    ],
+    [
+     "prodyusr",
+     "producer",
+     307
+    ],
+    [
+     "prodkts",
+     "products",
+     307
+    ],
+    [
+     "sistms",
+     "systems",
+     301
+    ],
+    [
+     "investmemts",
+     "investments",
+     296
+    ],
+    [
+     "marketimg",
+     "marketing",
+     291
+    ],
+    [
+     "industry",
+     "industries",
+     282
+    ],
+    [
+     "lndustries",
+     "industries",
+     278
+    ],
+    [
+     "prviate",
+     "private",
+     276
+    ],
+    [
+     "priavte",
+     "private",
+     274
+    ],
+    [
+     "lojistiks",
+     "logistics",
+     271
+    ],
+    [
+     "privaet",
+     "private",
+     265
+    ],
+    [
+     "privtae",
+     "private",
+     261
+    ],
+    [
+     "pivate",
+     "private",
+     260
+    ],
+    [
+     "pirvate",
+     "private",
+     259
+    ],
+    [
+     "projekts",
+     "projects",
+     256
+    ],
+    [
+     "bijnes",
+     "business",
+     245
+    ],
+    [
+     "egro",
+     "agro",
+     239
+    ],
+    [
+     "proprtij",
+     "properties",
+     234
+    ],
+    [
+     "ss",
+     "sons",
+     213
+    ],
+    [
+     "mainejmemt",
+     "management",
+     212
+    ],
+    [
+     "hospitailiti",
+     "hospitality",
+     211
+    ],
+    [
+     "lnfra",
+     "infra",
+     210
+    ],
+    [
+     "solution",
+     "solutions",
+     202
+    ],
+    [
+     "lnstitute",
+     "institute",
+     177
+    ],
+    [
+     "lnfrastructure",
+     "infrastructure",
+     175
+    ],
+    [
+     "lmpex",
+     "impex",
+     171
+    ],
+    [
+     "food",
+     "foods",
+     165
+    ],
+    [
+     "brother",
+     "brothers",
+     164
+    ],
+    [
+     "prlvate",
+     "private",
+     163
+    ],
+    [
+     "system",
+     "systems",
+     156
+    ],
+    [
+     "ce",
+     "care",
+     139
+    ],
+    [
+     "lnternational",
+     "international",
+     134
+    ],
+    [
+     "ao",
+     "agro",
+     127
+    ],
+    [
+     "intemational",
+     "international",
+     124
+    ],
+    [
+     "lnvestments",
+     "investments",
+     123
+    ],
+    [
+     "lnvestment",
+     "investment",
+     121
+    ],
+    [
+     "centre",
+     "center",
+     117
+    ],
+    [
+     "priae",
+     "private",
+     115
+    ],
+    [
+     "trader",
+     "traders",
+     112
+    ],
+    [
+     "prite",
+     "private",
+     107
+    ],
+    [
+     "th",
+     "tech",
+     107
+    ],
+    [
+     "prate",
+     "private",
+     106
+    ],
+    [
+     "foodworks",
+     "foods",
+     105
+    ],
+    [
+     "piate",
+     "private",
+     102
+    ],
+    [
+     "inphra",
+     "infra",
+     101
+    ],
+    [
+     "lnfotech",
+     "infotech",
+     98
+    ],
+    [
+     "pivte",
+     "private",
+     96
+    ],
+    [
+     "inia",
+     "india",
+     95
+    ],
+    [
+     "prvte",
+     "private",
+     92
+    ],
+    [
+     "fd",
+     "food",
+     91
+    ],
+    [
+     "solyusns",
+     "solutions",
+     91
+    ],
+    [
+     "prvae",
+     "private",
+     91
+    ],
+    [
+     "pvate",
+     "private",
+     91
+    ],
+    [
+     "idia",
+     "india",
+     88
+    ],
+    [
+     "pivae",
+     "private",
+     88
+    ],
+    [
+     "consultant",
+     "consultants",
+     84
+    ],
+    [
+     "llpllp",
+     "llp",
+     84
+    ],
+    [
+     "inda",
+     "india",
+     83
+    ],
+    [
+     "silvr",
+     "silver",
+     82
+    ],
+    [
+     "lots",
+     "lotus",
+     82
+    ],
+    [
+     "skti",
+     "shakti",
+     81
+    ],
+    [
+     "syam",
+     "shyam",
+     81
+    ],
+    [
+     "prive",
+     "private",
+     81
+    ],
+    [
+     "tirupti",
+     "tirupati",
+     81
+    ],
+    [
+     "praim",
+     "prime",
+     79
+    ],
+    [
+     "blu",
+     "blue",
+     79
+    ],
+    [
+     "pravte",
+     "private",
+     78
+    ],
+    [
+     "vijy",
+     "vijay",
+     77
+    ],
+    [
+     "imdstris",
+     "industries",
+     77
+    ],
+    [
+     "praprtis",
+     "properties",
+     76
+    ],
+    [
+     "pritae",
+     "private",
+     74
+    ],
+    [
+     "privet",
+     "private",
+     71
+    ],
+    [
+     "primiyr",
+     "premier",
+     71
+    ],
+    [
+     "sn",
+     "sun",
+     71
+    ],
+    [
+     "modrn",
+     "modern",
+     71
+    ],
+    [
+     "product",
+     "products",
+     71
+    ],
+    [
+     "lndian",
+     "indian",
+     70
+    ],
+    [
+     "pirate",
+     "private",
+     70
+    ],
+    [
+     "ia",
+     "india",
+     69
+    ],
+    [
+     "prvite",
+     "private",
+     69
+    ],
+    [
+     "pivaet",
+     "private",
+     68
+    ],
+    [
+     "priave",
+     "private",
+     68
+    ],
+    [
+     "venture",
+     "ventures",
+     68
+    ],
+    [
+     "pivtae",
+     "private",
+     68
+    ],
+    [
+     "sns",
+     "sons",
+     68
+    ],
+    [
+     "developer",
+     "developers",
+     68
+    ],
+    [
+     "pirvte",
+     "private",
+     68
+    ],
+    [
+     "gret",
+     "great",
+     68
+    ],
+    [
+     "suprim",
+     "supreme",
+     67
+    ],
+    [
+     "hri",
+     "hari",
+     65
+    ],
+    [
+     "gujrat",
+     "gujarat",
+     65
+    ],
+    [
+     "sauth",
+     "south",
+     65
+    ],
+    [
+     "bhart",
+     "bharat",
+     65
+    ],
+    [
+     "broters",
+     "brothers",
+     65
+    ],
+    [
+     "adity",
+     "aditya",
+     64
+    ],
+    [
+     "prvtae",
+     "private",
+     64
+    ],
+    [
+     "inida",
+     "india",
+     63
+    ],
+    [
+     "supr",
+     "super",
+     63
+    ],
+    [
+     "arihmt",
+     "arihant",
+     62
+    ],
+    [
+     "haspitaliti",
+     "hospitality",
+     61
+    ],
+    [
+     "siva",
+     "shiva",
+     61
+    ],
+    [
+     "sos",
+     "sons",
+     60
+    ],
+    [
+     "idnia",
+     "india",
+     60
+    ],
+    [
+     "hotl",
+     "hotel",
+     60
+    ],
+    [
+     "pviate",
+     "private",
+     60
+    ],
+    [
+     "prvaet",
+     "private",
+     60
+    ],
+    [
+     "jy",
+     "jay",
+     60
+    ],
+    [
+     "sury",
+     "surya",
+     60
+    ],
+    [
+     "indai",
+     "india",
+     59
+    ],
+    [
+     "export",
+     "exports",
+     59
+    ],
+    [
+     "brait",
+     "bright",
+     59
+    ],
+    [
+     "eastem",
+     "eastern",
+     58
+    ],
+    [
+     "prviae",
+     "private",
+     58
+    ],
+    [
+     "partner",
+     "partners",
+     58
+    ],
+    [
+     "sevn",
+     "seven",
+     58
+    ],
+    [
+     "goldn",
+     "golden",
+     58
+    ],
+    [
+     "yunivrsl",
+     "universal",
+     57
+    ],
+    [
+     "svstik",
+     "swastik",
+     57
+    ],
+    [
+     "siv",
+     "shiv",
+     57
+    ],
+    [
+     "imdo",
+     "indo",
+     56
+    ],
+    [
+     "dijitl",
+     "digital",
+     56
+    ],
+    [
+     "royl",
+     "royal",
+     55
+    ],
+    [
+     "bombe",
+     "bombay",
+     54
+    ],
+    [
+     "menejment",
+     "management",
+     54
+    ],
+    [
+     "builder",
+     "builders",
+     53
+    ],
+    [
+     "inbhestment",
+     "investment",
+     53
+    ],
+    [
+     "priaet",
+     "private",
+     53
+    ],
+    [
+     "pate",
+     "private",
+     52
+    ],
+    [
+     "limitet",
+     "limited",
+     52
+    ],
+    [
+     "prajekts",
+     "projects",
+     52
+    ],
+    [
+     "piavte",
+     "private",
+     52
+    ],
+    [
+     "pirvae",
+     "private",
+     52
+    ],
+    [
+     "project",
+     "projects",
+     51
+    ],
+    [
+     "ndia",
+     "india",
+     51
+    ],
+    [
+     "krsn",
+     "krishna",
+     51
+    ],
+    [
+     "piravte",
+     "private",
+     50
+    ],
+    [
+     "priavet",
+     "private",
+     50
+    ],
+    [
+     "may",
+     "my",
+     50
+    ],
+    [
+     "cae",
+     "care",
+     49
+    ],
+    [
+     "lndo",
+     "indo",
+     49
+    ],
+    [
+     "pirvtae",
+     "private",
+     49
+    ],
+    [
+     "ina",
+     "india",
+     48
+    ],
+    [
+     "daynamik",
+     "dynamic",
+     47
+    ],
+    [
+     "praite",
+     "private",
+     47
+    ],
+    [
+     "prte",
+     "private",
+     47
+    ],
+    [
+     "associate",
+     "associates",
+     47
+    ],
+    [
+     "myanejmemt",
+     "management",
+     47
+    ],
+    [
+     "sivm",
+     "shivam",
+     47
+    ],
+    [
+     "pite",
+     "private",
+     46
+    ],
+    [
+     "iia",
+     "india",
+     46
+    ],
+    [
+     "yunaited",
+     "united",
+     46
+    ],
+    [
+     "fod",
+     "food",
+     46
+    ],
+    [
+     "inovetiv",
+     "innovative",
+     46
+    ],
+    [
+     "srviss",
+     "services",
+     45
+    ],
+    [
+     "lnfratech",
+     "infratech",
+     45
+    ],
+    [
+     "prviaet",
+     "private",
+     45
+    ],
+    [
+     "he",
+     "home",
+     44
+    ],
+    [
+     "pive",
+     "private",
+     44
+    ],
+    [
+     "privaate",
+     "private",
+     43
+    ],
+    [
+     "indi",
+     "india",
+     43
+    ],
+    [
+     "nidia",
+     "india",
+     43
+    ],
+    [
+     "llmited",
+     "limited",
+     43
+    ],
+    [
+     "pivrate",
+     "private",
+     43
+    ],
+    [
+     "propertie",
+     "properties",
+     42
+    ],
+    [
+     "piae",
+     "private",
+     42
+    ],
+    [
+     "rl",
+     "real",
+     42
+    ],
+    [
+     "snos",
+     "sons",
+     41
+    ],
+    [
+     "cre",
+     "care",
+     41
+    ],
+    [
+     "logistic",
+     "logistics",
+     41
+    ],
+    [
+     "pvrate",
+     "private",
+     41
+    ],
+    [
+     "modem",
+     "modern",
+     40
+    ],
+    [
+     "construction",
+     "constructions",
+     40
+    ],
+    [
+     "pe",
+     "private",
+     40
+    ],
+    [
+     "ida",
+     "india",
+     40
+    ],
+    [
+     "pvte",
+     "private",
+     40
+    ],
+    [
+     "sosn",
+     "sons",
+     40
+    ],
+    [
+     "sa",
+     "seva",
+     39
+    ],
+    [
+     "prrvate",
+     "private",
+     39
+    ],
+    [
+     "pirvaet",
+     "private",
+     39
+    ],
+    [
+     "cy",
+     "city",
+     39
+    ],
+    [
+     "prve",
+     "private",
+     38
+    ],
+    [
+     "priivate",
+     "private",
+     38
+    ],
+    [
+     "inbhestments",
+     "investments",
+     38
+    ],
+    [
+     "hspitaliti",
+     "hospitality",
+     37
+    ],
+    [
+     "lnnovative",
+     "innovative",
+     37
+    ],
+    [
+     "emtrpraiss",
+     "enterprises",
+     37
+    ],
+    [
+     "sistems",
+     "systems",
+     37
+    ],
+    [
+     "teknolojis",
+     "technologies",
+     36
+    ],
+    [
+     "pridate",
+     "private",
+     36
+    ],
+    [
+     "ago",
+     "agro",
+     36
+    ],
+    [
+     "praivte",
+     "private",
+     36
+    ],
+    [
+     "prvitae",
+     "private",
+     36
+    ],
+    [
+     "priiate",
+     "private",
+     36
+    ],
+    [
+     "pvae",
+     "private",
+     35
+    ],
+    [
+     "le",
+     "life",
+     35
+    ],
+    [
+     "fods",
+     "foods",
+     35
+    ],
+    [
+     "myanejment",
+     "management",
+     35
+    ],
+    [
+     "debhelpars",
+     "developers",
+     35
+    ],
+    [
+     "prirate",
+     "private",
+     35
+    ],
+    [
+     "proprtijh",
+     "properties",
+     35
+    ],
+    [
+     "prevate",
+     "private",
+     34
+    ],
+    [
+     "prfvate",
+     "private",
+     34
+    ],
+    [
+     "investment",
+     "investments",
+     34
+    ],
+    [
+     "prae",
+     "private",
+     34
+    ],
+    [
+     "prcvate",
+     "private",
+     34
+    ],
+    [
+     "traing",
+     "trading",
+     33
+    ],
+    [
+     "blaik",
+     "black",
+     33
+    ],
+    [
+     "ar",
+     "agro",
+     33
+    ],
+    [
+     "piivate",
+     "private",
+     33
+    ],
+    [
+     "bisines",
+     "business",
+     33
+    ],
+    [
+     "prsvate",
+     "private",
+     32
+    ],
+    [
+     "prioate",
+     "private",
+     32
+    ],
+    [
+     "intarnyasnal",
+     "international",
+     32
+    ],
+    [
+     "ptivate",
+     "private",
+     32
+    ],
+    [
+     "paivate",
+     "private",
+     32
+    ],
+    [
+     "teh",
+     "tech",
+     31
+    ],
+    [
+     "pfivate",
+     "private",
+     31
+    ],
+    [
+     "southem",
+     "southern",
+     31
+    ],
+    [
+     "privite",
+     "private",
+     31
+    ],
+    [
+     "pritvae",
+     "private",
+     31
+    ],
+    [
+     "prihate",
+     "private",
+     30
+    ],
+    [
+     "prrivate",
+     "private",
+     30
+    ],
+    [
+     "knsaltyants",
+     "consultants",
+     30
+    ],
+    [
+     "pritve",
+     "private",
+     30
+    ],
+    [
+     "priaate",
+     "private",
+     30
+    ],
+    [
+     "prie",
+     "private",
+     30
+    ],
+    [
+     "di",
+     "delhi",
+     29
+    ],
+    [
+     "privaae",
+     "private",
+     29
+    ],
+    [
+     "pte",
+     "private",
+     29
+    ],
+    [
+     "prodakts",
+     "products",
+     29
+    ],
+    [
+     "tradng",
+     "trading",
+     29
+    ],
+    [
+     "trding",
+     "trading",
+     29
+    ],
+    [
+     "saim",
+     "sai",
+     29
+    ],
+    [
+     "prsivate",
+     "private",
+     29
+    ],
+    [
+     "privete",
+     "private",
+     29
+    ],
+    [
+     "tt",
+     "trust",
+     29
+    ],
+    [
+     "ayagro",
+     "agro",
+     29
+    ],
+    [
+     "prnivate",
+     "private",
+     28
+    ],
+    [
+     "sh",
+     "sangh",
+     28
+    ],
+    [
+     "privtea",
+     "private",
+     28
+    ],
+    [
+     "emtrpraijes",
+     "enterprises",
+     28
+    ],
+    [
+     "prbvate",
+     "private",
+     28
+    ],
+    [
+     "peivate",
+     "private",
+     28
+    ],
+    [
+     "chamber",
+     "chambers",
+     28
+    ],
+    [
+     "tradig",
+     "trading",
+     28
+    ],
+    [
+     "al",
+     "all",
+     28
+    ],
+    [
+     "indstrijh",
+     "industries",
+     28
+    ],
+    [
+     "privea",
+     "private",
+     28
+    ],
+    [
+     "hospitaliti",
+     "hospitality",
+     28
+    ],
+    [
+     "tch",
+     "tech",
+     28
+    ],
+    [
+     "trdaing",
+     "trading",
+     27
+    ],
+    [
+     "prtvate",
+     "private",
+     27
+    ],
+    [
+     "prisate",
+     "private",
+     27
+    ],
+    [
+     "prdvate",
+     "private",
+     27
+    ],
+    [
+     "trst",
+     "trust",
+     27
+    ],
+    [
+     "aro",
+     "agro",
+     27
+    ],
+    [
+     "privbte",
+     "private",
+     27
+    ],
+    [
+     "servlces",
+     "services",
+     27
+    ],
+    [
+     "privfte",
+     "private",
+     27
+    ],
+    [
+     "prilate",
+     "private",
+     27
+    ],
+    [
+     "limirrd",
+     "limited",
+     27
+    ],
+    [
+     "privste",
+     "private",
+     27
+    ],
+    [
+     "pre",
+     "private",
+     27
+    ],
+    [
+     "prhvate",
+     "private",
+     27
+    ],
+    [
+     "privaste",
+     "private",
+     26
+    ],
+    [
+     "tading",
+     "trading",
+     26
+    ],
+    [
+     "pravate",
+     "private",
+     26
+    ],
+    [
+     "so",
+     "sons",
+     26
+    ],
+    [
+     "prfivate",
+     "private",
+     26
+    ],
+    [
+     "agor",
+     "agro",
+     26
+    ],
+    [
+     "tc",
+     "tech",
+     26
+    ],
+    [
+     "prgivate",
+     "private",
+     26
+    ],
+    [
+     "pvriate",
+     "private",
+     26
+    ],
+    [
+     "solutlons",
+     "solutions",
+     25
+    ],
+    [
+     "prvaite",
+     "private",
+     25
+    ],
+    [
+     "ljistiks",
+     "logistics",
+     25
+    ],
+    [
+     "trt",
+     "trust",
+     25
+    ],
+    [
+     "prifvate",
+     "private",
+     25
+    ],
+    [
+     "privhate",
+     "private",
+     25
+    ],
+    [
+     "privcte",
+     "private",
+     25
+    ],
+    [
+     "privgte",
+     "private",
+     25
+    ],
+    [
+     "bildars",
+     "builders",
+     25
+    ],
+    [
+     "pricate",
+     "private",
+     25
+    ],
+    [
+     "poivate",
+     "private",
+     25
+    ],
+    [
+     "srvises",
+     "services",
+     25
+    ],
+    [
+     "privnate",
+     "private",
+     25
+    ],
+    [
+     "inra",
+     "infra",
+     25
+    ],
+    [
+     "privarte",
+     "private",
+     25
+    ],
+    [
+     "privbate",
+     "private",
+     25
+    ],
+    [
+     "privhte",
+     "private",
+     25
+    ]
+   ],
+   "addr": {
+    "hriyana": "haryana",
+    "hr": "haryana",
+    "ka": "karnataka",
+    "krnatk": "karnataka",
+    "br": "bihar",
+    "gujrat": "gujarat",
+    "gj": "gujarat",
+    "mh": "maharashtra",
+    "mharastr": "maharashtra",
+    "rj": "rajasthan",
+    "rajsthan": "rajasthan",
+    "keralam": "kerala",
+    "kl": "kerala",
+    "kerlm": "kerala",
+    "pb": "punjab",
+    "pmjab": "punjab",
+    "tg": "telangana",
+    "telmgan": "telangana",
+    "fat": "flat",
+    "flta": "flat",
+    "flt": "flat",
+    "falt": "flat",
+    "ngar": "nagar",
+    "naar": "nagar",
+    "nagra": "nagar",
+    "nagr": "nagar",
+    "naagr": "nagar",
+    "ngaar": "nagar",
+    "plt": "plot",
+    "plto": "plot",
+    "polt": "plot",
+    "pot": "plot",
+    "shp": "shop",
+    "sohp": "shop",
+    "mani": "main",
+    "rod": "road",
+    "roa": "road",
+    "rad": "road",
+    "roda": "road",
+    "raod": "road",
+    "rd": "3rd",
+    "003rd": "3rd",
+    "nd": "2nd",
+    "2n": "2nd",
+    "02nd": "2nd",
+    "foor": "floor",
+    "floro": "floor",
+    "flor": "floor",
+    "folor": "floor",
+    "01st": "1st",
+    "1s": "1st",
+    "st": "1st",
+    "pue": "pune",
+    "houe": "house",
+    "ofice": "office"
+   },
+   "addr_evidence": [
+    [
+     "mh",
+     "maharashtra",
+     55214
+    ],
+    [
+     "mharastr",
+     "maharashtra",
+     37147
+    ],
+    [
+     "gj",
+     "gujarat",
+     17241
+    ],
+    [
+     "ka",
+     "karnataka",
+     17093
+    ],
+    [
+     "krnatk",
+     "karnataka",
+     13651
+    ],
+    [
+     "tg",
+     "telangana",
+     11572
+    ],
+    [
+     "gujrat",
+     "gujarat",
+     11466
+    ],
+    [
+     "rj",
+     "rajasthan",
+     10733
+    ],
+    [
+     "hr",
+     "haryana",
+     10155
+    ],
+    [
+     "kl",
+     "kerala",
+     8572
+    ],
+    [
+     "br",
+     "bihar",
+     8296
+    ],
+    [
+     "rajsthan",
+     "rajasthan",
+     7956
+    ],
+    [
+     "telmgan",
+     "telangana",
+     7207
+    ],
+    [
+     "hriyana",
+     "haryana",
+     6995
+    ],
+    [
+     "keralam",
+     "kerala",
+     5290
+    ],
+    [
+     "kerlm",
+     "kerala",
+     5098
+    ],
+    [
+     "pb",
+     "punjab",
+     4191
+    ],
+    [
+     "pmjab",
+     "punjab",
+     2739
+    ],
+    [
+     "flor",
+     "floor",
+     92
+    ],
+    [
+     "rod",
+     "road",
+     88
+    ],
+    [
+     "rad",
+     "road",
+     85
+    ],
+    [
+     "plt",
+     "plot",
+     70
+    ],
+    [
+     "raod",
+     "road",
+     66
+    ],
+    [
+     "roda",
+     "road",
+     62
+    ],
+    [
+     "plto",
+     "plot",
+     61
+    ],
+    [
+     "st",
+     "1st",
+     52
+    ],
+    [
+     "polt",
+     "plot",
+     51
+    ],
+    [
+     "1s",
+     "1st",
+     49
+    ],
+    [
+     "pot",
+     "plot",
+     48
+    ],
+    [
+     "naagr",
+     "nagar",
+     47
+    ],
+    [
+     "flt",
+     "flat",
+     45
+    ],
+    [
+     "2n",
+     "2nd",
+     44
+    ],
+    [
+     "falt",
+     "flat",
+     43
+    ],
+    [
+     "flta",
+     "flat",
+     41
+    ],
+    [
+     "ngaar",
+     "nagar",
+     41
+    ],
+    [
+     "folor",
+     "floor",
+     41
+    ],
+    [
+     "fat",
+     "flat",
+     40
+    ],
+    [
+     "ngar",
+     "nagar",
+     37
+    ],
+    [
+     "naar",
+     "nagar",
+     37
+    ],
+    [
+     "foor",
+     "floor",
+     37
+    ],
+    [
+     "nagra",
+     "nagar",
+     37
+    ],
+    [
+     "shp",
+     "shop",
+     35
+    ],
+    [
+     "floro",
+     "floor",
+     34
+    ],
+    [
+     "roa",
+     "road",
+     33
+    ],
+    [
+     "rd",
+     "3rd",
+     33
+    ],
+    [
+     "01st",
+     "1st",
+     33
+    ],
+    [
+     "nagr",
+     "nagar",
+     33
+    ],
+    [
+     "pue",
+     "pune",
+     30
+    ],
+    [
+     "nd",
+     "2nd",
+     29
+    ],
+    [
+     "003rd",
+     "3rd",
+     29
+    ],
+    [
+     "ofice",
+     "office",
+     28
+    ],
+    [
+     "mani",
+     "main",
+     26
+    ],
+    [
+     "02nd",
+     "2nd",
+     26
+    ],
+    [
+     "sohp",
+     "shop",
+     26
+    ],
+    [
+     "houe",
+     "house",
+     25
+    ]
+   ]
+  },
+  "US": {
+   "name": {
+    "incorporated": "inc",
+    "company": "co",
+    "corporation": "corp",
+    "ne": "nose",
+    "pllcpllc": "pllc",
+    "ce": "care",
+    "caer": "care",
+    "cae": "care",
+    "cdre": "care",
+    "cre": "care",
+    "ca": "care",
+    "cr": "care",
+    "car": "care",
+    "crae": "care",
+    "cear": "care",
+    "system": "systems",
+    "intemational": "international",
+    "lnternational": "international",
+    "lnternal": "internal",
+    "intemal": "internal",
+    "lnvestments": "investments",
+    "investment": "investments",
+    "lnvestment": "investments",
+    "clic": "clinic",
+    "cliic": "clinic",
+    "cinic": "clinic",
+    "clinc": "clinic",
+    "clniic": "clinic",
+    "clnic": "clinic",
+    "cliinc": "clinic",
+    "lntegrated": "integrated",
+    "llcllc": "llc",
+    "bk": "book",
+    "bok": "book",
+    "hemandez": "hernandez",
+    "centre": "center",
+    "cnter": "center",
+    "ctr": "center",
+    "cener": "center",
+    "cenetr": "center",
+    "cetner": "center",
+    "cenr": "center",
+    "ceter": "center",
+    "cetr": "center",
+    "centr": "center",
+    "piza": "pizza",
+    "lcswpc": "lcsw",
+    "domd": "domdpc",
+    "work": "works",
+    "ws": "works",
+    "partner": "partners",
+    "patners": "partners",
+    "parnters": "partners",
+    "parters": "partners",
+    "prtners": "partners",
+    "partnrs": "partners",
+    "hr": "hair",
+    "tavem": "tavern",
+    "pamd": "pamdpc",
+    "fd": "fund",
+    "fud": "fund",
+    "fnd": "fund",
+    "cy": "city",
+    "lndustries": "industries",
+    "industry": "industries",
+    "mdpc": "md",
+    "unon": "union",
+    "un": "union",
+    "dcmd": "dcmdpc",
+    "ya": "yoga",
+    "tust": "trust",
+    "tt": "trust",
+    "trst": "trust",
+    "trut": "trust",
+    "limited": "ltd",
+    "associate": "associates",
+    "asociates": "associates",
+    "assoiates": "associates",
+    "assciates": "associates",
+    "lnnovative": "innovative",
+    "westem": "western",
+    "comerstone": "cornerstone",
+    "lnitiative": "initiative",
+    "lcswmd": "lcswmdpc",
+    "ao": "auto",
+    "bt": "best",
+    "lnterstate": "interstate",
+    "pinnade": "pinnacle",
+    "lnstitute": "institute",
+    "ddspc": "dds",
+    "papc": "pa",
+    "modem": "modern",
+    "analytic": "analytics",
+    "lnsurance": "insurance",
+    "physician": "physicians",
+    "fysicians": "physicians",
+    "se": "safe",
+    "eastem": "eastern",
+    "da": "data",
+    "healt": "health",
+    "heath": "health",
+    "healh": "health",
+    "haelth": "health",
+    "halth": "health",
+    "helath": "health",
+    "helth": "health",
+    "healht": "health",
+    "heatlh": "health",
+    "capltal": "capital",
+    "william": "williams",
+    "southem": "southern",
+    "he": "home",
+    "women": "womens",
+    "medcine": "medicine",
+    "ddsmd": "ddsmdpc",
+    "gf": "gulf",
+    "charitie": "charities",
+    "comer": "corner",
+    "specialist": "specialists",
+    "dcdc": "dc",
+    "dcpc": "dc",
+    "mdmd": "mdmdpc",
+    "di": "deli",
+    "product": "products",
+    "food": "foods",
+    "dt": "dent",
+    "leaming": "learning",
+    "sp": "shop",
+    "ministrie": "ministries",
+    "odmd": "odmdpc",
+    "be": "blue",
+    "bue": "blue",
+    "technology": "technologies",
+    "pedlatric": "pediatric",
+    "solution": "solutions",
+    "dopc": "do",
+    "dmdpc": "dmd",
+    "ax": "apex",
+    "fellowsip": "fellowship",
+    "lnterests": "interests",
+    "dynamics": "dynamic",
+    "lnnovations": "innovations",
+    "innovation": "innovations",
+    "odpc": "od",
+    "lnfrastructure": "infrastructure",
+    "ll": "local",
+    "laboratorie": "laboratories",
+    "lntelligence": "intelligence",
+    "sr": "star",
+    "wt": "west",
+    "pcpc": "pc",
+    "lsrael": "israel",
+    "jone": "jones",
+    "brand": "brands",
+    "venture": "ventures",
+    "studio": "studios",
+    "guld": "guild",
+    "terapy": "therapy",
+    "consultant": "consultants",
+    "concept": "concepts",
+    "lndustrial": "industrial",
+    "zn": "zion",
+    "northem": "northern",
+    "by": "body",
+    "kg": "king",
+    "lnterfaith": "interfaith",
+    "nail": "nails",
+    "pk": "peak",
+    "ls": "labs",
+    "networks": "network"
+   },
+   "name_evidence": [
+    [
+     "incorporated",
+     "inc",
+     32843
+    ],
+    [
+     "corporation",
+     "corp",
+     3772
+    ],
+    [
+     "corp",
+     "corporation",
+     1924
+    ],
+    [
+     "co",
+     "company",
+     1542
+    ],
+    [
+     "company",
+     "co",
+     1122
+    ],
+    [
+     "centre",
+     "center",
+     1113
+    ],
+    [
+     "md",
+     "mdpc",
+     713
+    ],
+    [
+     "ce",
+     "care",
+     675
+    ],
+    [
+     "llcllc",
+     "llc",
+     585
+    ],
+    [
+     "limited",
+     "ltd",
+     361
+    ],
+    [
+     "associate",
+     "associates",
+     313
+    ],
+    [
+     "partner",
+     "partners",
+     253
+    ],
+    [
+     "lnterstate",
+     "interstate",
+     211
+    ],
+    [
+     "cre",
+     "care",
+     203
+    ],
+    [
+     "cae",
+     "care",
+     189
+    ],
+    [
+     "lntegrated",
+     "integrated",
+     170
+    ],
+    [
+     "pinnade",
+     "pinnacle",
+     152
+    ],
+    [
+     "lnstitute",
+     "institute",
+     151
+    ],
+    [
+     "lnnovative",
+     "innovative",
+     147
+    ],
+    [
+     "lndustries",
+     "industries",
+     145
+    ],
+    [
+     "industry",
+     "industries",
+     144
+    ],
+    [
+     "pcpc",
+     "pc",
+     136
+    ],
+    [
+     "comerstone",
+     "cornerstone",
+     134
+    ],
+    [
+     "cr",
+     "care",
+     128
+    ],
+    [
+     "fd",
+     "fund",
+     125
+    ],
+    [
+     "technology",
+     "technologies",
+     125
+    ],
+    [
+     "lnitiative",
+     "initiative",
+     110
+    ],
+    [
+     "pa",
+     "papc",
+     110
+    ],
+    [
+     "dmd",
+     "dmdpc",
+     110
+    ],
+    [
+     "tavem",
+     "tavern",
+     109
+    ],
+    [
+     "do",
+     "dopc",
+     105
+    ],
+    [
+     "od",
+     "odpc",
+     105
+    ],
+    [
+     "ddsmd",
+     "ddsmdpc",
+     103
+    ],
+    [
+     "system",
+     "systems",
+     102
+    ],
+    [
+     "caer",
+     "care",
+     99
+    ],
+    [
+     "crae",
+     "care",
+     98
+    ],
+    [
+     "modem",
+     "modern",
+     97
+    ],
+    [
+     "physician",
+     "physicians",
+     97
+    ],
+    [
+     "dcmd",
+     "dcmdpc",
+     94
+    ],
+    [
+     "healt",
+     "health",
+     94
+    ],
+    [
+     "lnvestments",
+     "investments",
+     93
+    ],
+    [
+     "lcsw",
+     "lcswpc",
+     93
+    ],
+    [
+     "domd",
+     "domdpc",
+     93
+    ],
+    [
+     "dds",
+     "ddspc",
+     91
+    ],
+    [
+     "specialist",
+     "specialists",
+     90
+    ],
+    [
+     "lnternal",
+     "internal",
+     89
+    ],
+    [
+     "eastem",
+     "eastern",
+     86
+    ],
+    [
+     "di",
+     "deli",
+     86
+    ],
+    [
+     "lcswmd",
+     "lcswmdpc",
+     84
+    ],
+    [
+     "mdmd",
+     "mdmdpc",
+     84
+    ],
+    [
+     "hemandez",
+     "hernandez",
+     82
+    ],
+    [
+     "leaming",
+     "learning",
+     79
+    ],
+    [
+     "intemal",
+     "internal",
+     78
+    ],
+    [
+     "westem",
+     "western",
+     78
+    ],
+    [
+     "odmd",
+     "odmdpc",
+     77
+    ],
+    [
+     "pamd",
+     "pamdpc",
+     76
+    ],
+    [
+     "lnternational",
+     "international",
+     74
+    ],
+    [
+     "dc",
+     "dcpc",
+     73
+    ],
+    [
+     "ax",
+     "apex",
+     72
+    ],
+    [
+     "intemational",
+     "international",
+     71
+    ],
+    [
+     "ao",
+     "auto",
+     70
+    ],
+    [
+     "lnsurance",
+     "insurance",
+     69
+    ],
+    [
+     "northem",
+     "northern",
+     69
+    ],
+    [
+     "bt",
+     "best",
+     68
+    ],
+    [
+     "lnnovations",
+     "innovations",
+     67
+    ],
+    [
+     "ca",
+     "care",
+     66
+    ],
+    [
+     "da",
+     "data",
+     66
+    ],
+    [
+     "se",
+     "safe",
+     64
+    ],
+    [
+     "healh",
+     "health",
+     64
+    ],
+    [
+     "be",
+     "blue",
+     59
+    ],
+    [
+     "lnterests",
+     "interests",
+     58
+    ],
+    [
+     "comer",
+     "corner",
+     57
+    ],
+    [
+     "sr",
+     "star",
+     57
+    ],
+    [
+     "ya",
+     "yoga",
+     55
+    ],
+    [
+     "ne",
+     "nose",
+     54
+    ],
+    [
+     "work",
+     "works",
+     53
+    ],
+    [
+     "gf",
+     "gulf",
+     53
+    ],
+    [
+     "lnfrastructure",
+     "infrastructure",
+     53
+    ],
+    [
+     "venture",
+     "ventures",
+     51
+    ],
+    [
+     "cy",
+     "city",
+     50
+    ],
+    [
+     "pk",
+     "peak",
+     50
+    ],
+    [
+     "lndustrial",
+     "industrial",
+     49
+    ],
+    [
+     "cliic",
+     "clinic",
+     48
+    ],
+    [
+     "helth",
+     "health",
+     48
+    ],
+    [
+     "lnterfaith",
+     "interfaith",
+     48
+    ],
+    [
+     "ceter",
+     "center",
+     47
+    ],
+    [
+     "hr",
+     "hair",
+     46
+    ],
+    [
+     "women",
+     "womens",
+     46
+    ],
+    [
+     "solution",
+     "solutions",
+     46
+    ],
+    [
+     "cnter",
+     "center",
+     45
+    ],
+    [
+     "clinc",
+     "clinic",
+     45
+    ],
+    [
+     "pllcpllc",
+     "pllc",
+     44
+    ],
+    [
+     "tt",
+     "trust",
+     44
+    ],
+    [
+     "fnd",
+     "fund",
+     44
+    ],
+    [
+     "cener",
+     "center",
+     43
+    ],
+    [
+     "heath",
+     "health",
+     42
+    ],
+    [
+     "ctr",
+     "center",
+     42
+    ],
+    [
+     "brand",
+     "brands",
+     42
+    ],
+    [
+     "centr",
+     "center",
+     42
+    ],
+    [
+     "lnvestment",
+     "investment",
+     41
+    ],
+    [
+     "he",
+     "home",
+     41
+    ],
+    [
+     "clniic",
+     "clinic",
+     41
+    ],
+    [
+     "asociates",
+     "associates",
+     40
+    ],
+    [
+     "william",
+     "williams",
+     40
+    ],
+    [
+     "southem",
+     "southern",
+     40
+    ],
+    [
+     "dt",
+     "dent",
+     40
+    ],
+    [
+     "haelth",
+     "health",
+     40
+    ],
+    [
+     "laboratorie",
+     "laboratories",
+     40
+    ],
+    [
+     "jone",
+     "jones",
+     40
+    ],
+    [
+     "fysicians",
+     "physicians",
+     40
+    ],
+    [
+     "bk",
+     "book",
+     39
+    ],
+    [
+     "un",
+     "union",
+     39
+    ],
+    [
+     "ls",
+     "labs",
+     39
+    ],
+    [
+     "cinic",
+     "clinic",
+     38
+    ],
+    [
+     "car",
+     "care",
+     38
+    ],
+    [
+     "lsrael",
+     "israel",
+     38
+    ],
+    [
+     "clnic",
+     "clinic",
+     37
+    ],
+    [
+     "ll",
+     "local",
+     37
+    ],
+    [
+     "consultant",
+     "consultants",
+     37
+    ],
+    [
+     "network",
+     "networks",
+     37
+    ],
+    [
+     "charitie",
+     "charities",
+     36
+    ],
+    [
+     "product",
+     "products",
+     35
+    ],
+    [
+     "halth",
+     "health",
+     35
+    ],
+    [
+     "studio",
+     "studios",
+     35
+    ],
+    [
+     "clic",
+     "clinic",
+     34
+    ],
+    [
+     "patners",
+     "partners",
+     34
+    ],
+    [
+     "lntelligence",
+     "intelligence",
+     34
+    ],
+    [
+     "cetner",
+     "center",
+     34
+    ],
+    [
+     "cliinc",
+     "clinic",
+     34
+    ],
+    [
+     "ministrie",
+     "ministries",
+     33
+    ],
+    [
+     "terapy",
+     "therapy",
+     33
+    ],
+    [
+     "concept",
+     "concepts",
+     33
+    ],
+    [
+     "tust",
+     "trust",
+     32
+    ],
+    [
+     "food",
+     "foods",
+     32
+    ],
+    [
+     "assoiates",
+     "associates",
+     32
+    ],
+    [
+     "pedlatric",
+     "pediatric",
+     32
+    ],
+    [
+     "cenetr",
+     "center",
+     32
+    ],
+    [
+     "innovation",
+     "innovations",
+     32
+    ],
+    [
+     "bok",
+     "book",
+     31
+    ],
+    [
+     "helath",
+     "health",
+     31
+    ],
+    [
+     "by",
+     "body",
+     31
+    ],
+    [
+     "kg",
+     "king",
+     30
+    ],
+    [
+     "healht",
+     "health",
+     30
+    ],
+    [
+     "cdre",
+     "care",
+     29
+    ],
+    [
+     "capltal",
+     "capital",
+     29
+    ],
+    [
+     "investment",
+     "investments",
+     29
+    ],
+    [
+     "ws",
+     "works",
+     29
+    ],
+    [
+     "cenr",
+     "center",
+     29
+    ],
+    [
+     "unon",
+     "union",
+     28
+    ],
+    [
+     "fud",
+     "fund",
+     28
+    ],
+    [
+     "sp",
+     "shop",
+     28
+    ],
+    [
+     "trst",
+     "trust",
+     28
+    ],
+    [
+     "nail",
+     "nails",
+     28
+    ],
+    [
+     "analytic",
+     "analytics",
+     27
+    ],
+    [
+     "dcdc",
+     "dc",
+     27
+    ],
+    [
+     "dynamic",
+     "dynamics",
+     27
+    ],
+    [
+     "parnters",
+     "partners",
+     27
+    ],
+    [
+     "zn",
+     "zion",
+     27
+    ],
+    [
+     "piza",
+     "pizza",
+     26
+    ],
+    [
+     "parters",
+     "partners",
+     26
+    ],
+    [
+     "prtners",
+     "partners",
+     26
+    ],
+    [
+     "cetr",
+     "center",
+     26
+    ],
+    [
+     "heatlh",
+     "health",
+     26
+    ],
+    [
+     "medcine",
+     "medicine",
+     25
+    ],
+    [
+     "assciates",
+     "associates",
+     25
+    ],
+    [
+     "fellowsip",
+     "fellowship",
+     25
+    ],
+    [
+     "wt",
+     "west",
+     25
+    ],
+    [
+     "bue",
+     "blue",
+     25
+    ],
+    [
+     "guld",
+     "guild",
+     25
+    ],
+    [
+     "cear",
+     "care",
+     25
+    ],
+    [
+     "partnrs",
+     "partners",
+     25
+    ],
+    [
+     "trut",
+     "trust",
+     25
+    ]
+   ],
+   "addr": {
+    "missouri": "mo",
+    "st": "street",
+    "strete": "street",
+    "steet": "street",
+    "stret": "street",
+    "srteet": "street",
+    "steret": "street",
+    "sreet": "street",
+    "illinois": "il",
+    "iowa": "ia",
+    "dr": "drive",
+    "driev": "drive",
+    "drie": "drive",
+    "drvie": "drive",
+    "dive": "drive",
+    "dirve": "drive",
+    "drve": "drive",
+    "tennessee": "tn",
+    "utah": "ut",
+    "trl": "trail",
+    "california": "ca",
+    "ct": "court",
+    "connecticut": "court",
+    "cuort": "court",
+    "cout": "court",
+    "curt": "court",
+    "coutr": "court",
+    "cort": "court",
+    "corut": "court",
+    "rd": "road",
+    "rod": "road",
+    "rad": "road",
+    "roda": "road",
+    "raod": "road",
+    "pl": "place",
+    "palce": "place",
+    "vermont": "vt",
+    "massachusetts": "ma",
+    "cir": "circle",
+    "virginia": "va",
+    "alabama": "al",
+    "texas": "tx",
+    "ln": "lane",
+    "laen": "lane",
+    "lne": "lane",
+    "lae": "lane",
+    "lnae": "lane",
+    "ohio": "oh",
+    "arkansas": "ar",
+    "washington": "wa",
+    "minnesota": "mn",
+    "blvd": "boulevard",
+    "oregon": "or",
+    "ave": "avenue",
+    "avene": "avenue",
+    "aveue": "avenue",
+    "aenue": "avenue",
+    "aveneu": "avenue",
+    "aevnue": "avenue",
+    "avneue": "avenue",
+    "avnue": "avenue",
+    "aveune": "avenue",
+    "delaware": "de",
+    "montana": "mt",
+    "mount": "mt",
+    "hwy": "highway",
+    "indiana": "in",
+    "kentucky": "ky",
+    "wisconsin": "wi",
+    "colorado": "co",
+    "arizona": "az",
+    "oklahoma": "ok",
+    "pkwy": "parkway",
+    "cv": "cove",
+    "kansas": "ks",
+    "tpke": "turnpike",
+    "maryland": "md",
+    "alaska": "ak",
+    "nebraska": "ne",
+    "northeast": "ne",
+    "pennsylvania": "pa",
+    "georgia": "ga",
+    "maine": "me",
+    "wyoming": "wy",
+    "idaho": "id",
+    "sq": "square",
+    "ft": "fort",
+    "ter": "terrace",
+    "12st": "12th",
+    "louisiana": "la",
+    "hoston": "houston",
+    "houstn": "houston",
+    "hosuton": "houston",
+    "houton": "houston",
+    "hoouston": "houston",
+    "huston": "houston",
+    "florida": "fl",
+    "rdg": "ridge",
+    "pt": "point",
+    "charlote": "charlotte",
+    "aly": "alley",
+    "atl": "atlanta",
+    "southwest": "sw",
+    "18st": "18th",
+    "no": "north",
+    "25st": "25th",
+    "35st": "35th",
+    "23nd": "23rd",
+    "spirng": "spring",
+    "16st": "16th",
+    "southeast": "se",
+    "expy": "expressway",
+    "northwest": "nw",
+    "40st": "40th",
+    "36st": "36th",
+    "17st": "17th",
+    "tcson": "tucson",
+    "tcuson": "tucson",
+    "msea": "mesa",
+    "14st": "14th",
+    "louiville": "louisville",
+    "11st": "11th",
+    "19st": "19th",
+    "colubus": "columbus",
+    "chiicago": "chicago",
+    "chcago": "chicago",
+    "33nd": "33rd",
+    "34st": "34th"
+   },
+   "addr_evidence": [
+    [
+     "rd",
+     "road",
+     74315
+    ],
+    [
+     "dr",
+     "drive",
+     69608
+    ],
+    [
+     "st",
+     "street",
+     68077
+    ],
+    [
+     "ave",
+     "avenue",
+     50487
+    ],
+    [
+     "texas",
+     "tx",
+     49753
+    ],
+    [
+     "ln",
+     "lane",
+     30510
+    ],
+    [
+     "ohio",
+     "oh",
+     25489
+    ],
+    [
+     "illinois",
+     "il",
+     22112
+    ],
+    [
+     "tennessee",
+     "tn",
+     19260
+    ],
+    [
+     "indiana",
+     "in",
+     17713
+    ],
+    [
+     "ct",
+     "court",
+     17339
+    ],
+    [
+     "massachusetts",
+     "ma",
+     15137
+    ],
+    [
+     "arizona",
+     "az",
+     14377
+    ],
+    [
+     "maryland",
+     "md",
+     12045
+    ],
+    [
+     "washington",
+     "wa",
+     11515
+    ],
+    [
+     "california",
+     "ca",
+     11500
+    ],
+    [
+     "alabama",
+     "al",
+     11356
+    ],
+    [
+     "virginia",
+     "va",
+     11058
+    ],
+    [
+     "kentucky",
+     "ky",
+     11042
+    ],
+    [
+     "minnesota",
+     "mn",
+     9418
+    ],
+    [
+     "arkansas",
+     "ar",
+     9285
+    ],
+    [
+     "utah",
+     "ut",
+     8689
+    ],
+    [
+     "cir",
+     "circle",
+     8510
+    ],
+    [
+     "oregon",
+     "or",
+     8150
+    ],
+    [
+     "missouri",
+     "mo",
+     7526
+    ],
+    [
+     "wisconsin",
+     "wi",
+     7437
+    ],
+    [
+     "pl",
+     "place",
+     7328
+    ],
+    [
+     "iowa",
+     "ia",
+     6882
+    ],
+    [
+     "oklahoma",
+     "ok",
+     6619
+    ],
+    [
+     "connecticut",
+     "ct",
+     5918
+    ],
+    [
+     "blvd",
+     "boulevard",
+     4917
+    ],
+    [
+     "trl",
+     "trail",
+     4298
+    ],
+    [
+     "maine",
+     "me",
+     3710
+    ],
+    [
+     "kansas",
+     "ks",
+     3647
+    ],
+    [
+     "montana",
+     "mt",
+     3337
+    ],
+    [
+     "delaware",
+     "de",
+     2740
+    ],
+    [
+     "pennsylvania",
+     "pa",
+     2527
+    ],
+    [
+     "hwy",
+     "highway",
+     1788
+    ],
+    [
+     "vermont",
+     "vt",
+     1755
+    ],
+    [
+     "ter",
+     "terrace",
+     1724
+    ],
+    [
+     "nebraska",
+     "ne",
+     1665
+    ],
+    [
+     "colorado",
+     "co",
+     1330
+    ],
+    [
+     "pkwy",
+     "parkway",
+     1228
+    ],
+    [
+     "louisiana",
+     "la",
+     1033
+    ],
+    [
+     "cv",
+     "cove",
+     896
+    ],
+    [
+     "alaska",
+     "ak",
+     866
+    ],
+    [
+     "wyoming",
+     "wy",
+     808
+    ],
+    [
+     "ft",
+     "fort",
+     582
+    ],
+    [
+     "georgia",
+     "ga",
+     579
+    ],
+    [
+     "idaho",
+     "id",
+     354
+    ],
+    [
+     "stret",
+     "street",
+     341
+    ],
+    [
+     "mt",
+     "mount",
+     315
+    ],
+    [
+     "raod",
+     "road",
+     292
+    ],
+    [
+     "sq",
+     "square",
+     289
+    ],
+    [
+     "rad",
+     "road",
+     272
+    ],
+    [
+     "rod",
+     "road",
+     261
+    ],
+    [
+     "florida",
+     "fl",
+     239
+    ],
+    [
+     "roda",
+     "road",
+     238
+    ],
+    [
+     "rdg",
+     "ridge",
+     235
+    ],
+    [
+     "atl",
+     "atlanta",
+     216
+    ],
+    [
+     "pt",
+     "point",
+     198
+    ],
+    [
+     "strete",
+     "street",
+     193
+    ],
+    [
+     "dirve",
+     "drive",
+     173
+    ],
+    [
+     "drve",
+     "drive",
+     173
+    ],
+    [
+     "steet",
+     "street",
+     160
+    ],
+    [
+     "drie",
+     "drive",
+     158
+    ],
+    [
+     "sreet",
+     "street",
+     158
+    ],
+    [
+     "drvie",
+     "drive",
+     154
+    ],
+    [
+     "steret",
+     "street",
+     154
+    ],
+    [
+     "driev",
+     "drive",
+     153
+    ],
+    [
+     "srteet",
+     "street",
+     148
+    ],
+    [
+     "tpke",
+     "turnpike",
+     147
+    ],
+    [
+     "dive",
+     "drive",
+     144
+    ],
+    [
+     "lae",
+     "lane",
+     127
+    ],
+    [
+     "aveneu",
+     "avenue",
+     126
+    ],
+    [
+     "southwest",
+     "sw",
+     126
+    ],
+    [
+     "aevnue",
+     "avenue",
+     120
+    ],
+    [
+     "laen",
+     "lane",
+     117
+    ],
+    [
+     "aenue",
+     "avenue",
+     115
+    ],
+    [
+     "lne",
+     "lane",
+     110
+    ],
+    [
+     "aveue",
+     "avenue",
+     107
+    ],
+    [
+     "northeast",
+     "ne",
+     107
+    ],
+    [
+     "avnue",
+     "avenue",
+     105
+    ],
+    [
+     "aly",
+     "alley",
+     104
+    ],
+    [
+     "aveune",
+     "avenue",
+     100
+    ],
+    [
+     "avneue",
+     "avenue",
+     99
+    ],
+    [
+     "lnae",
+     "lane",
+     98
+    ],
+    [
+     "avene",
+     "avenue",
+     78
+    ],
+    [
+     "expy",
+     "expressway",
+     75
+    ],
+    [
+     "mount",
+     "mt",
+     60
+    ],
+    [
+     "northwest",
+     "nw",
+     58
+    ],
+    [
+     "southeast",
+     "se",
+     55
+    ],
+    [
+     "hoston",
+     "houston",
+     52
+    ],
+    [
+     "cuort",
+     "court",
+     51
+    ],
+    [
+     "16st",
+     "16th",
+     45
+    ],
+    [
+     "coutr",
+     "court",
+     44
+    ],
+    [
+     "cort",
+     "court",
+     43
+    ],
+    [
+     "corut",
+     "court",
+     43
+    ],
+    [
+     "no",
+     "north",
+     41
+    ],
+    [
+     "curt",
+     "court",
+     40
+    ],
+    [
+     "huston",
+     "houston",
+     39
+    ],
+    [
+     "cout",
+     "court",
+     38
+    ],
+    [
+     "hosuton",
+     "houston",
+     38
+    ],
+    [
+     "17st",
+     "17th",
+     34
+    ],
+    [
+     "19st",
+     "19th",
+     32
+    ],
+    [
+     "houton",
+     "houston",
+     31
+    ],
+    [
+     "11st",
+     "11th",
+     31
+    ],
+    [
+     "12st",
+     "12th",
+     30
+    ],
+    [
+     "msea",
+     "mesa",
+     30
+    ],
+    [
+     "hoouston",
+     "houston",
+     30
+    ],
+    [
+     "25st",
+     "25th",
+     29
+    ],
+    [
+     "23nd",
+     "23rd",
+     29
+    ],
+    [
+     "35st",
+     "35th",
+     27
+    ],
+    [
+     "spirng",
+     "spring",
+     27
+    ],
+    [
+     "palce",
+     "place",
+     27
+    ],
+    [
+     "33nd",
+     "33rd",
+     27
+    ],
+    [
+     "houstn",
+     "houston",
+     26
+    ],
+    [
+     "charlote",
+     "charlotte",
+     26
+    ],
+    [
+     "40st",
+     "40th",
+     26
+    ],
+    [
+     "14st",
+     "14th",
+     26
+    ],
+    [
+     "chiicago",
+     "chicago",
+     26
+    ],
+    [
+     "chcago",
+     "chicago",
+     26
+    ],
+    [
+     "18st",
+     "18th",
+     25
+    ],
+    [
+     "36st",
+     "36th",
+     25
+    ],
+    [
+     "tcson",
+     "tucson",
+     25
+    ],
+    [
+     "louiville",
+     "louisville",
+     25
+    ],
+    [
+     "colubus",
+     "columbus",
+     25
+    ],
+    [
+     "34st",
+     "34th",
+     25
+    ],
+    [
+     "tcuson",
+     "tucson",
+     25
+    ]
+   ]
+  }
+ },
+ "weak_tokens": {
+  "India": {
+   "elelpi": 1.0,
+   "phud": 1.0,
+   "vemcrs": 1.0,
+   "emtrpraijej": 1.0,
+   "services": 0.6021,
+   "partners": 0.6876,
+   "smt": 0.9998,
+   "centre": 0.8476,
+   "solyusms": 1.0,
+   "service": 0.9422,
+   "dr": 0.9968,
+   "com": 0.997,
+   "mr": 0.9982,
+   "sri": 0.9992,
+   "ms": 0.9817,
+   "corporation": 0.5681,
+   "ace": 0.5066,
+   "shri": 0.9996,
+   "sophtveyr": 1.0,
+   "construction": 0.5061,
+   "dba": 0.999,
+   "aka": 0.9948,
+   "pra": 0.999,
+   "perfect": 0.5103,
+   "li": 0.9967,
+   "enrji": 1.0,
+   "praibhet": 1.0,
+   "good": 0.5175,
+   "southern": 0.5233,
+   "kmstrksn": 1.0,
+   "formerly": 1.0,
+   "lksmi": 1.0,
+   "kmsltemts": 1.0,
+   "dream": 0.5003,
+   "teknoloji": 1.0,
+   "anand": 0.5157,
+   "galaxy": 0.5154,
+   "srvisej": 1.0,
+   "piraivet": 1.0,
+   "sky": 0.5008,
+   "keyr": 1.0,
+   "id": 0.98,
+   "imdstrij": 1.0,
+   "imtrnesnl": 1.0,
+   "praivrr": 1.0,
+   "power": 0.5236,
+   "pavr": 1.0,
+   "infotech": 0.5309,
+   "imphotek": 1.0,
+   "kmsltimg": 1.0,
+   "tek": 0.9909,
+   "www": 1.0,
+   "as": 0.9336,
+   "pioneer": 0.5178,
+   "imjiniyrimg": 1.0,
+   "sunrise": 0.5158,
+   "apex": 0.51,
+   "eastern": 0.5174,
+   "hitech": 0.5063,
+   "fortune": 0.5236,
+   "phuds": 1.0,
+   "phaumdesn": 1.0,
+   "ist": 0.9866,
+   "classic": 0.5268,
+   "it": 0.5054,
+   "aiti": 1.0,
+   "one": 0.5604,
+   "imphrastrkcr": 1.0,
+   "lakshmi": 0.5012,
+   "high": 0.5199,
+   "hai": 0.9946
+  },
+  "US": {
+   "com": 1.0,
+   "center": 0.6626,
+   "dba": 1.0,
+   "corp": 0.5906,
+   "service": 0.8279,
+   "co": 0.6324,
+   "services": 0.858,
+   "aka": 0.9997,
+   "ltd": 0.8541,
+   "fka": 0.9998,
+   "id": 0.9916,
+   "lp": 0.6687,
+   "formerly": 1.0,
+   "the": 0.9105,
+   "trading": 0.6232,
+   "www": 1.0,
+   "as": 0.9911,
+   "business": 0.5602
+  }
+ },
+ "preprocessing_version": "p2"
+}

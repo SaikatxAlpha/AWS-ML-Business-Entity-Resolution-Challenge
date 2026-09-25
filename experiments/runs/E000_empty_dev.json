@@ -1,0 +1,53 @@
+{
+  "row": {
+    "experiment_id": "E000_empty_dev",
+    "date": "2026-09-25T03:40:50",
+    "preprocessing_version": "",
+    "blocking_version": "",
+    "feature_version": "",
+    "model": "empty-prediction",
+    "hyperparameters": "{}",
+    "threshold": "",
+    "candidate_recall": "",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f05": 0.05584,
+    "singleton_accuracy": 1.0,
+    "average_candidates": "",
+    "runtime_s": "",
+    "memory_gb": 0.65,
+    "notes": "floor: predict no match for every entity; fold0 val entities=49,999; tune=train-fold sample 49,999"
+  },
+  "metrics": {
+    "n_entities": 49999,
+    "f05": 0.055841116822336445,
+    "f05_nonsingleton": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "macro_precision_predicted": NaN,
+    "macro_recall_nonsingleton": 0.0,
+    "singleton_rate": 0.055841116822336445,
+    "singleton_accuracy": 1.0,
+    "false_merge_rate": 0.0,
+    "empty_prediction_rate": 1.0,
+    "avg_predicted": 0.0,
+    "f05_by_group": {
+      "India|0": 1.0,
+      "India|1": 0.0,
+      "India|2": 0.0,
+      "India|3": 0.0,
+      "India|4": 0.0,
+      "India|5": 0.0,
+      "India|6+": 0.0,
+      "US|0": 1.0,
+      "US|1": 0.0,
+      "US|2": 0.0,
+      "US|3": 0.0,
+      "US|4": 0.0,
+      "US|5": 0.0,
+      "US|6+": 0.0
+    }
+  },
+  "candidate_metrics": {},
+  "extra": {}
+}

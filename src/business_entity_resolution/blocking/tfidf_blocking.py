@@ -69,10 +69,13 @@ def tfidf_candidates(rec: pd.DataFrame, query_codes, cfg: TfidfBlockingConfig, v
         t = time.time()
         vec = TfidfVectorizer(analyzer=_split, lowercase=False, sublinear_tf=True, max_df=cfg.max_df,
                               min_df=cfg.min_df, dtype=np.float32)
-        vec.fit(build_docs(part[is_s1], cfg) + build_docs(pool, cfg))
+        # one pass: vectorise every record of the country once, then slice queries / pool
+        x_all = vec.fit_transform(build_docs(part, cfg)).tocsr()
         scale = _field_scaling(vec.vocabulary_, cfg)
-        xp = vec.transform(build_docs(pool, cfg))
-        xq = vec.transform(build_docs(q, cfg))
+        q_mask = is_s1 & part["code"].isin(query_codes).to_numpy()
+        xp = x_all[np.flatnonzero(~is_s1)]
+        xq = x_all[np.flatnonzero(q_mask)]
+        del x_all
         if scale is not None:
             xp, xq = _l2(xp @ scale), _l2(xq @ scale)
         xpt = xp.T.tocsr()

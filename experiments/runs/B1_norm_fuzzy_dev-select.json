@@ -1,0 +1,137 @@
+{
+  "row": {
+    "experiment_id": "B1_norm_fuzzy_dev-select",
+    "date": "2026-09-25T21:26:28",
+    "preprocessing_version": "p2",
+    "blocking_version": "tfidf_fielded_v0",
+    "feature_version": "fuzzy_tokenset_v0",
+    "model": "rule: w*name+(1-w)*addr >= t",
+    "hyperparameters": "{\"fields\": {\"a\": \"addr_norm\", \"d\": \"nums\", \"n\": \"name_core\"}, \"max_df\": 0.02, \"top_k\": 50, \"w\": 0.5}",
+    "threshold": 90.0,
+    "candidate_recall": 0.96858,
+    "precision": 0.50811,
+    "recall": 0.83471,
+    "f05": 0.61625,
+    "singleton_accuracy": 0.11712,
+    "average_candidates": 50.0,
+    "runtime_s": 32.8,
+    "memory_gb": 3.29,
+    "notes": "(w,t) tuned on train-fold sample; fold0 val entities=49,999; tune=train-fold sample 49,999"
+  },
+  "metrics": {
+    "n_entities": 49999,
+    "f05": 0.6162527243890104,
+    "f05_nonsingleton": 0.6457732956283206,
+    "micro_precision": 0.508114553435759,
+    "micro_recall": 0.8347143253362918,
+    "macro_precision_predicted": 0.6069729395664006,
+    "macro_recall_nonsingleton": 0.8345890085393761,
+    "singleton_rate": 0.055841116822336445,
+    "singleton_accuracy": 0.11712034383954155,
+    "false_merge_rate": 0.8288496652465003,
+    "empty_prediction_rate": 0.014180283605672113,
+    "avg_predicted": 5.686193723874477,
+    "f05_by_group": {
+      "India|0": 0.14043,
+      "India|1": 0.42632,
+      "India|2": 0.54905,
+      "India|3": 0.62393,
+      "India|4": 0.6783,
+      "India|5": 0.71812,
+      "India|6+": 0.75969,
+      "US|0": 0.10155,
+      "US|1": 0.42239,
+      "US|2": 0.56017,
+      "US|3": 0.63654,
+      "US|4": 0.68133,
+      "US|5": 0.71685,
+      "US|6+": 0.75561
+    }
+  },
+  "candidate_metrics": {
+    "candidate_recall": 0.9685780982757823,
+    "entity_full_coverage": 0.9078950155697249,
+    "entity_any_coverage": 0.9968648717351241,
+    "avg_candidates": 49.99921998439969,
+    "p50_candidates": 50.0,
+    "p95_candidates": 50.0,
+    "max_candidates": 50,
+    "zero_candidate_rate": 0.0,
+    "n_candidate_pairs": 2499911,
+    "oracle_f05": 0.9890494545245391
+  },
+  "extra": {
+    "candidate_recall_at_k": {
+      "1": {
+        "candidate_recall": 0.25990962880783985,
+        "entity_full_coverage": 0.04548054313978859,
+        "entity_any_coverage": 0.9528459762323385,
+        "avg_candidates": 1.0,
+        "p50_candidates": 1.0,
+        "p95_candidates": 1.0,
+        "max_candidates": 1,
+        "zero_candidate_rate": 0.0,
+        "n_candidate_pairs": 49999,
+        "oracle_f05": 0.6610424363554427
+      },
+      "5": {
+        "candidate_recall": 0.8585667729857163,
+        "entity_full_coverage": 0.6452009235918402,
+        "entity_any_coverage": 0.9904675154108501,
+        "avg_candidates": 5.0,
+        "p50_candidates": 5.0,
+        "p95_candidates": 5.0,
+        "max_candidates": 5,
+        "zero_candidate_rate": 0.0,
+        "n_candidate_pairs": 249995,
+        "oracle_f05": 0.960525497793475
+      },
+      "10": {
+        "candidate_recall": 0.9360930060555632,
+        "entity_full_coverage": 0.8243480839705976,
+        "entity_any_coverage": 0.9934755438812041,
+        "avg_candidates": 10.0,
+        "p50_candidates": 10.0,
+        "p95_candidates": 10.0,
+        "max_candidates": 10,
+        "zero_candidate_rate": 0.0,
+        "n_candidate_pairs": 499990,
+        "oracle_f05": 0.977791004435701
+      },
+      "20": {
+        "candidate_recall": 0.9550224194517635,
+        "entity_full_coverage": 0.8727942889825662,
+        "entity_any_coverage": 0.995487957294469,
+        "avg_candidates": 19.99981999639993,
+        "p50_candidates": 20.0,
+        "p95_candidates": 20.0,
+        "max_candidates": 20,
+        "zero_candidate_rate": 0.0,
+        "n_candidate_pairs": 999971,
+        "oracle_f05": 0.9842187050786041
+      },
+      "50": {
+        "candidate_recall": 0.9685780982757823,
+        "entity_full_coverage": 0.9078950155697249,
+        "entity_any_coverage": 0.9968648717351241,
+        "avg_candidates": 49.99921998439969,
+        "p50_candidates": 50.0,
+        "p95_candidates": 50.0,
+        "max_candidates": 50,
+        "zero_candidate_rate": 0.0,
+        "n_candidate_pairs": 2499911,
+        "oracle_f05": 0.9890494545245391
+      }
+    },
+    "tune_best": {
+      "f05": 0.6157252665182307,
+      "micro_precision": 0.5083230644650213,
+      "micro_recall": 0.8345944633597892,
+      "singleton_accuracy": 0.12141833810888251,
+      "false_merge_rate": 0.8283398671568727,
+      "avg_predicted": 5.680713614272285,
+      "threshold": 90.0,
+      "w": 0.5
+    }
+  }
+}

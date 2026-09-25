@@ -12,7 +12,7 @@ import psutil
 from ..config import EXPERIMENTS_DIR
 
 COLUMNS = [
-    "experiment_id", "date", "preprocessing_version", "blocking_version", "feature_version", "model",
+    "experiment_id", "stage", "date", "preprocessing_version", "blocking_version", "feature_version", "model",
     "hyperparameters", "threshold", "candidate_recall", "precision", "recall", "f05", "singleton_accuracy",
     "average_candidates", "runtime_s", "memory_gb", "notes",
 ]
@@ -22,7 +22,7 @@ def _num(v, nd=5):
     return "" if v is None else (round(v, nd) if isinstance(v, float) else v)
 
 
-def log_experiment(experiment_id: str, *, metrics: dict, cand_metrics: dict | None = None,
+def log_experiment(experiment_id: str, *, metrics: dict, stage: str = "", cand_metrics: dict | None = None,
                    preprocessing_version: str = "", blocking_version: str = "", feature_version: str = "",
                    model: str = "", hyperparameters: dict | None = None, threshold=None,
                    runtime_s: float | None = None, notes: str = "", extra: dict | None = None) -> None:
@@ -32,6 +32,7 @@ def log_experiment(experiment_id: str, *, metrics: dict, cand_metrics: dict | No
     cand_metrics = cand_metrics or {}
     row = {
         "experiment_id": experiment_id,
+        "stage": stage,
         "date": dt.datetime.now().isoformat(timespec="seconds"),
         "preprocessing_version": preprocessing_version,
         "blocking_version": blocking_version,
@@ -50,6 +51,7 @@ def log_experiment(experiment_id: str, *, metrics: dict, cand_metrics: dict | No
         "notes": notes,
     }
     path = EXPERIMENTS_DIR / "results.csv"
+    _migrate(path)
     new = not path.exists() or path.stat().st_size == 0
     with open(path, "a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
@@ -58,3 +60,23 @@ def log_experiment(experiment_id: str, *, metrics: dict, cand_metrics: dict | No
         w.writerow(row)
     full = {"row": row, "metrics": metrics, "candidate_metrics": cand_metrics, "extra": extra or {}}
     (runs / f"{experiment_id}.json").write_text(json.dumps(full, indent=2, default=str), encoding="utf-8")
+
+
+def _migrate(path) -> None:
+    """Add columns introduced after rows were written (e.g. ``stage``), keeping every row."""
+    if not path.exists() or path.stat().st_size == 0:
+        return
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+        header = rows[0].keys() if rows else []
+    if list(header) == COLUMNS:
+        return
+    stage_of = {"E000": "floor", "B0": "4-baseline", "B1": "4-baseline"}
+    for r in rows:
+        if not r.get("stage"):
+            r["stage"] = stage_of.get(r["experiment_id"].split("_", 1)[0], "")
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=COLUMNS)
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k, "") for k in COLUMNS})

@@ -1,0 +1,21 @@
+{
+ "name": "B1_norm_tfidfonly",
+ "blocking": {
+  "fields": {
+   "n": "name_core",
+   "a": "addr_norm",
+   "d": "nums"
+  },
+  "top_k": 50,
+  "max_df": 0.02
+ },
+ "rule": {
+  "type": "tfidf",
+  "t": 0.76
+ },
+ "val_f05": 0.7884746408811034,
+ "selected_by": "train-fold tuning F0.5",
+ "tune_f05": 0.7865287891825188,
+ "split_note": "fold0 val entities=49,999; tune=train-fold sample 49,999",
+ "preprocessing_version": "p2"
+}
